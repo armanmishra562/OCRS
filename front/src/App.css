@@ -1,0 +1,48 @@
+.page {
+  /* background-image: url("./Images/MainLOGO.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+}
+.page-item {
+  margin: 10px;
+}
+#loginpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(202, 202, 202);
+  width: 40%;
+  border-radius: 5%;
+}
+#registerpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(202, 202, 202);
+  width: 40%;
+  height: 75%;
+  border-radius: 5%;
+}
+#dashboardpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#createcomplaintpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(202, 202, 202);
+  width: 40%;
+  border-radius: 5%;
+}
